@@ -4,6 +4,7 @@ const pm_div = document.querySelector("#pm_div")
 const amLabel = document.querySelector("#amLabel")
 const pmLabel = document.querySelector("#pmLabel")
 
+//The list of full time we have in clock
 const fullTime = [
     '12:00',
     '01:00',
@@ -19,6 +20,7 @@ const fullTime = [
     '11:00',
   ];
 
+//The list of full time we have in clock
 const halfTime = [
     '12:30',
     '01:30',

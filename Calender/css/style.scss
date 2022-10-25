@@ -19,9 +19,10 @@ body{
     div.am_pm_div{
         display: flex;
         flex-direction: column;
+        width: 200rem;
 
         div.main_time_div{
-            margin-left: 7%;
+            margin-left: 4%;
             flex: 1;
 
             span.main_time{
@@ -32,7 +33,7 @@ body{
 
             div.half_time{
                 margin-left: 7%;
-                margin-top: 3%;
+                margin-top: 1%;
                 
                 span.half_time_label{
                     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -42,7 +43,7 @@ body{
             }
 
             hr.full_line{
-                margin-top: 3%;
+                margin-top: 1%;
                 width: 100%;
             }
         }
@@ -100,5 +101,11 @@ body{
         font-size: small;
         color: rgb(37, 184, 37);
         margin-top: 4px;
+    }
+
+    div.all_day{
+        width: 200rem;
+        height: 60px;
+        background-color: rgb(204, 203, 203);
     }
 }

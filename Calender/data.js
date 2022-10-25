@@ -118,5 +118,11 @@ const data = [
         endTime: "2:00 AM",
         title: "Travel",
         location: "Lahore, Pakistan"
+    },
+    {
+        startTime: "1:00 AM",
+        endTime: "2:00 AM",
+        title: "Travel",
+        location: "Lahore, Pakistan"
     }
 ]
